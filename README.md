@@ -91,7 +91,7 @@ baseada em problemas
 
 ## :date: Sprints <a id="sprint"></a>
 
-🔖 SPRINT 1 ([Link da Pasta]()):  Em andamento 🏃
+🔖 SPRINT 1 ([Link da Pasta](https://github.com/Vitality-4DSM/Documentacao/tree/main/Sprint/Sprint%201)):  Em andamento 🏃
 
 🔖 SPRINT 2 ([Link da Pasta]()):  Aguardando.
 
