@@ -101,7 +101,7 @@ baseada em problemas
 
 <br>
 
-## :mortar_board: Equipe <a id="equipe"></a>
+## 👨‍💼 Equipe <a id="equipe"></a>
 
 | Membro | Função | Github | Linkedin |
 | :----: | :----: | :----: | :------: | 
