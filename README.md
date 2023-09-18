@@ -7,17 +7,20 @@
 <br>
 
 <p align="center">
-  <a href ="#api"> Aprendizagem por Projetos Integrados </a> | 
-  <a href ="#desafio"> Desafio </a>  | 
-  <a href ="#escopo"> Escopo do Projeto </a>  | 
-  <a href ="#backlog"> Backlog das Sprints </a>  | 
-  <a href ="#sprint"> Sprints </a>  | 
-  <a href ="#equipe"> Equipe </a>  | 
+  <a href="#api">Aprendizagem por Projetos Integrados</a> • 
+  <a href="#desafio">Desafio</a> • 
+  <a href="#escopo">Escopo do Projeto</a> • 
+  <a href="#backlog">Backlog das Sprints</a> • 
+  <a href="#tecnologia">Tecnologias</a> •
+  <a href="#sprint">Sprints</a> • 
+  <a href="#equipe">Equipe</a>  
 </p>
 
 <br>
 
-<h4> Status do Projeto: Em andamento ⏳️ </h4>
+<h4 align="center">  
+  Status do Projeto: Em andamento ⏳️ 
+</h4>
 
 <br>
 
@@ -85,19 +88,33 @@ baseada em problemas
 
 <br>
 
-## :dart: Backlog Total e Historias de Usuário <a id="backlog"></a>
+## :dart: Backlog Total <a id="backlog"></a>
+
+
+<br>
+
+## 🛠 Tecnologias <a id="tecnologia"></a>
+
+As seguintes ferramentas foram usadas na construção do projeto:
+
+- [Node.js](https://nodejs.org/en/)
+- [React](https://pt-br.reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Bitbucket](https://bitbucket.org/)
+- [Jira](https://www.atlassian.com/br/software/jira)
+- [Versel](https://vercel.com/)
 
 <br>
 
 ## :date: Sprints <a id="sprint"></a>
 
-🔖 SPRINT 1 ([Link da Pasta]()):  Em andamento 🏃
+🔖 SPRINT 1 ([Link da Pasta](https://github.com/Vitality-4DSM/Documentacao/tree/main/Sprint/Sprint%201)):  Em andamento 🏃
 
-🔖 SPRINT 2 ([Link da Pasta]()):  Aguardando.
+🔖 SPRINT 2 ([Link da Pasta](https://github.com/Vitality-4DSM/Documentacao/tree/main/Sprint/Sprint%202)):  Aguardando.
 
-🔖 SPRINT 3 ([Link da Pasta]()):  Aguardando.
+🔖 SPRINT 3 ([Link da Pasta](https://github.com/Vitality-4DSM/Documentacao/tree/main/Sprint/Sprint%203)):  Aguardando.
 
-🔖 SPRINT 4 ([Link da Pasta]()):  Aguardando.
+🔖 SPRINT 4 ([Link da Pasta](https://github.com/Vitality-4DSM/Documentacao/tree/main/Sprint/Sprint%204)):  Aguardando.
 
 <br>
 
