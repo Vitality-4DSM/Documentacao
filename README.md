@@ -90,6 +90,23 @@ baseada em problemas
 
 ## :dart: Backlog Total <a id="backlog"></a>
 
+| Tarefa                                        | Prioridade                                                                                                                                                                                                                                      | User Stories     | Critério de Aceitação | Sprint | Status |
+| :-------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :-----------: | :--------: | :----: | :----: |
+| Página de estações | Alta 🟥 |  |  |  | 🔄 |
+| Modelo de dados | Alta 🟥 |  |  |  | 🔄 |
+| Documentação do projeto | Alta 🟥 |  |  |  | 🔄 |
+| Proteção de rotas | Alta 🟥 |  |  |  | 🔄 |
+| Programar uma estação com C | Alta 🟥 |  |  |  | 🔄 |
+| Construir uma estação com arduino | Alta 🟥 |  |  |  | 🔄 |
+| Página de usuário | Alta 🟥 |  |  |  | 🔄 |
+| Página de login | Alta 🟥 |  |  |  | 🔄 |
+| Guia dos parâmetros | Alta 🟥 |  |  |  | 🔄 |
+| Banco relacional | Alta 🟥 |  |  |  | 🔄 |
+| Banco não relacional | Alta 🟥 |  |  |  | 🔄 |
+| Página de alerta | Alta 🟥 |  |  |  | 🔄 |
+| Ferramentas de DevOps | Alta 🟥 |  |  |  | 🔄 |
+| Mockup das páginas do projeto | Media 🟨 |  |  |  | 🔄 |
+| Historico de ações do usuário | Baixo 🟩 |  |  |  | 🔄 |
 
 <br>
 
@@ -108,13 +125,13 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 ## :date: Sprints <a id="sprint"></a>
 
-🔖 SPRINT 1 ([Link da Pasta](https://github.com/Vitality-4DSM/Documentacao/tree/main/Sprint/Sprint%201)):  Em andamento 🏃
+🔖 SPRINT 1 ([Link da Pasta](https://github.com/Vitality-4DSM/Documentacao/tree/main/Documenta%C3%A7%C3%A3o/Sprint/Sprint%201)):  Em andamento 🏃
 
-🔖 SPRINT 2 ([Link da Pasta](https://github.com/Vitality-4DSM/Documentacao/tree/main/Sprint/Sprint%202)):  Aguardando.
+🔖 SPRINT 2 ([Link da Pasta](https://github.com/Vitality-4DSM/Documentacao/tree/main/Documenta%C3%A7%C3%A3o/Sprint/Sprint%202)):  Aguardando.
 
-🔖 SPRINT 3 ([Link da Pasta](https://github.com/Vitality-4DSM/Documentacao/tree/main/Sprint/Sprint%203)):  Aguardando.
+🔖 SPRINT 3 ([Link da Pasta](https://github.com/Vitality-4DSM/Documentacao/tree/main/Documenta%C3%A7%C3%A3o/Sprint/Sprint%203)):  Aguardando.
 
-🔖 SPRINT 4 ([Link da Pasta](https://github.com/Vitality-4DSM/Documentacao/tree/main/Sprint/Sprint%204)):  Aguardando.
+🔖 SPRINT 4 ([Link da Pasta](https://github.com/Vitality-4DSM/Documentacao/tree/main/Documenta%C3%A7%C3%A3o/Sprint/Sprint%204)):  Aguardando.
 
 <br>
 
