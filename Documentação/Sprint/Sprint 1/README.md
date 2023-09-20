@@ -10,10 +10,10 @@ Na primeira sprint, foi acordado com o cliente que o Mvp, seria a documentação
 ## 🎲 Modelo de dados
 
 ### Modelo do banco relacional:
-<img src="https://github.com/whatscodeg3/API-3DSM-Frontend/assets/73721760/956f857a-ad68-4a46-bfbb-e9460bc7c563" width="1000">
+<img src="https://github.com/Vitality-4DSM/Documentacao/assets/73721760/3900cb95-9855-47aa-b922-0746c39b238f" width="1000">
 
 ### Modelo do banco não relacional:
-<img src="https://github.com/whatscodeg3/API-3DSM-Frontend/assets/73721760/489adc8d-fe53-453a-ab86-fe8af4ed52be" width="1000">
+<img src="https://github.com/Vitality-4DSM/Documentacao/assets/73721760/f3fa9cb0-81f5-4520-b3aa-53c8e48924b8" width="1000">
 
 ## 📝 Mockup
 
