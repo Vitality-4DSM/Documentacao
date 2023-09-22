@@ -92,21 +92,22 @@ baseada em problemas
 
 | Tarefa                                        | Prioridade                                                                                                                                                                                                                                      | User Stories     | Critério de Aceitação | Sprint | Status |
 | :-------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :-----------: | :--------: | :----: | :----: |
-| Página de estações | Alta 🟥 |  |  |  | 🔄 |
-| Modelo de dados | Alta 🟥 |  |  |  | 🔄 |
-| Documentação do projeto | Alta 🟥 |  |  |  | 🔄 |
-| Proteção de rotas | Alta 🟥 |  |  |  | 🔄 |
-| Programar uma estação com C | Alta 🟥 |  |  |  | 🔄 |
-| Construir uma estação com arduino | Alta 🟥 |  |  |  | 🔄 |
-| Página de usuário | Alta 🟥 |  |  |  | 🔄 |
-| Página de login | Alta 🟥 |  |  |  | 🔄 |
-| Guia dos parâmetros | Alta 🟥 |  |  |  | 🔄 |
-| Banco relacional | Alta 🟥 |  |  |  | 🔄 |
-| Banco não relacional | Alta 🟥 |  |  |  | 🔄 |
-| Página de alerta | Alta 🟥 |  |  |  | 🔄 |
-| Ferramentas de DevOps | Alta 🟥 |  |  |  | 🔄 |
-| Mockup das páginas do projeto | Media 🟨 |  |  |  | 🔄 |
-| Historico de ações do usuário | Baixo 🟩 |  |  |  | 🔄 |
+| Proteção de rotas | Alta 🟥 |  |  | 1 | 🔄 |
+| Modelo de dados | Alta 🟥 |  |  | 1 | 🔄 |
+| Banco relacional | Alta 🟥 |  |  | 1 | 🔄 |
+| Mockup das páginas do projeto | Media 🟨 |  |  | 1 | 🔄 |
+| Página de estações | Alta 🟥 |  |  | 2 | 🔄 ||
+| Página de dashboard | Alta 🟥 |  |  | 2 | 🔄 |
+| Página de login | Alta 🟥 |  |  | 2 | 🔄 |
+| Guia dos parâmetros | Alta 🟥 |  |  | 2 | 🔄 |
+| Programar uma estação com C | Alta 🟥 |  |  | 3 | 🔄 |
+| Página de usuário | Alta 🟥 |  |  | 3 | 🔄 |
+| Banco não relacional | Alta 🟥 |  |  | 3 | 🔄 |
+| Página de alerta | Alta 🟥 |  |  | 3 | 🔄 |
+| Construir uma estação com arduino | Alta 🟥 |  |  | 4 | 🔄 |
+| Historico de ações do usuário | Baixo 🟩 |  |  | 4 | 🔄 |
+| Documentação do projeto | Alta 🟥 |  |  | Entrega contínua | 🔄 
+| Ferramentas de DevOps | Alta 🟥 |  |  | Entrega contínua | 🔄 |
 
 <br>
 
