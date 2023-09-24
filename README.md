@@ -90,23 +90,24 @@ baseada em problemas
 
 ## :dart: Backlog Total <a id="backlog"></a>
 
-| Tarefa                                        | Prioridade                                                                                                                                                                                                                                      | User Stories     | Critério de Aceitação | Sprint | Status |
-| :-------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :-----------: | :--------: | :----: | :----: |
-| Página de estações | Alta 🟥 |  |  |  | 🔄 |
-| Modelo de dados | Alta 🟥 |  |  |  | 🔄 |
-| Documentação do projeto | Alta 🟥 |  |  |  | 🔄 |
-| Proteção de rotas | Alta 🟥 |  |  |  | 🔄 |
-| Programar uma estação com C | Alta 🟥 |  |  |  | 🔄 |
-| Construir uma estação com arduino | Alta 🟥 |  |  |  | 🔄 |
-| Página de usuário | Alta 🟥 |  |  |  | 🔄 |
-| Página de login | Alta 🟥 |  |  |  | 🔄 |
-| Guia dos parâmetros | Alta 🟥 |  |  |  | 🔄 |
-| Banco relacional | Alta 🟥 |  |  |  | 🔄 |
-| Banco não relacional | Alta 🟥 |  |  |  | 🔄 |
-| Página de alerta | Alta 🟥 |  |  |  | 🔄 |
-| Ferramentas de DevOps | Alta 🟥 |  |  |  | 🔄 |
-| Mockup das páginas do projeto | Media 🟨 |  |  |  | 🔄 |
-| Historico de ações do usuário | Baixo 🟩 |  |  |  | 🔄 |
+| Tarefa | Prioridade | User Stories | Critério de Aceitação | Sprint | Status |
+| :----: | :--------: | :----------: | :-------------------: | :----: | :----: |
+| Modelo de dados | Alta 🟥 | Eu como cliente, quero que seja feito um modelo de dados dos bancos que serão usados, para visualizar como serão feitos os bancos de dados. | Criar o modelo físico relacional do banco relacional e não relacional. | 1 | ✅ |
+| Banco relacional | Alta 🟥 | Eu como cliente, quero um banco de dados onde ficarão salvos as informações, que poderão ser usadas quando necessário. | Criar o banco relacional no Mysql. | 1 | ✅ |
+| Mockup das páginas do projeto | Media 🟨 | Eu como cliente, quero que seja feito mockup das páginas do projeto, para visualizar como serão feitas. | Criar as páginas no figma e validar com o cliente. | 1 | ✅ |
+| Proteção de rotas | Alta 🟥 | Eu como cliente do sistema, quero que as rotas sejam protegidas para apenas pessoas autorizadas, possam usar certas funções do sistema. | Proteção dos backends, permitindo o acesso a rotas apenas com token. | 2 | 🔄 |
+| Página de estações | Alta 🟥 | Eu como cliente, quero que o sistema tenha um crud completo de estações. | Criar uma página capaz de realizar o crud de estações. | 2 | 🔄 |
+| Página de dashboard | Alta 🟥 | Eu como cliente, quero que o sistema tenha um dashboard, que permitirá visualizar as informações salvas no banco de dados. | Criar página que terá gráfico exibindo informações do banco, relacionados aos parametros coletados. | 2 | 🔄 |
+| Página de login | Alta 🟥 | Eu como cliente, quero que o sistema tenha um perfil público e de administrador, para manter a segurança do projeto. | Criar página que irá disponibilizar o token após login bem sucedido, para usar opções de administrador. | 2 | 🔄 |
+| Guia dos parâmetros | Alta 🟥 | Eu como cliente, quero uma área que descreva sobre os parametros usados no projeto, para fins educacionais de quem usar o site. |  | 2 | 🔄 |
+| Programar uma estação com C | Alta 🟥 | Eu como cliente, quero que uma estação seja criada usando código em C e arduino. |  | 3 | 🔄 |
+| Página de usuário | Alta 🟥 | Eu como cliente, quero que o sistema tenha um crud de usuários, para facilitar o controle de administradores. |  | 3 | 🔄 |
+| Banco não relacional | Alta 🟥 | Eu como cliente, quero um banco de dados capaz de lidar com o grande fluxo de dados recebidos das estações. |  | 3 | 🔄 |
+| Página de alerta | Alta 🟥 | Eu como cliente, quero que tenha um crud completo de alertas, que devem ser disparados e listados num histórico. |  | 3 | 🔄 |
+| Construir uma estação com arduino | Alta 🟥 | Eu como cliente, quero que uma estação seja criada usando código em C e arduino. |  | 4 | 🔄 |
+| Historico de ações do usuário | Baixo 🟩 | Eu como cliente, quero que tenha no banco de dados um histórico de ações dos administradores. |  | 4 | 🔄 |
+| Documentação do projeto | Alta 🟥 | Eu como fatec, quero que o projeto tenha cada sprint documentada no github para avaliação |  | Entrega contínua | 🔄 
+| Ferramentas de DevOps | Alta 🟥 | Eu como fatec, quero que seja incorporado processos de DevOps na realização do projeto. |  | Entrega contínua | 🔄 |
 
 <br>
 
@@ -136,13 +137,12 @@ As seguintes ferramentas foram usadas na construção do projeto:
 <br>
 
 ## 👨‍💼 Equipe <a id="equipe"></a>
-
 | Membro | Função | Github | Linkedin |
-| :----: | :----: | :----: | :------: | 
-| Julio de Paula        | Product Owner  | <a href="https://github.com/JulioPm142"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a>   | <a href="https://www.linkedin.com/in/j%C3%BAlio-machado-7a07a4250/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"> |
-| Jonatas Mathias         | Scrum Master | <a href="https://github.com/Jonatas-Dallo"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a> | <a href="https://www.linkedin.com/in/jonatas-dall%C3%B3-147638206"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a> |
-| Gabriel da Cunha       | Desenvolvedor | <a href="https://github.com/Tuuca"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a>     | <a href="https://www.linkedin.com/in/gabriel-da-cunha-de-macedo-199890250/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a> |
-| Ryan Alves         | Desenvolvedor | <a href="https://github.com/XLryan246"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a>   | <a href="https://www.linkedin.com/in/ryan-alves-661ba823b"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a> |
-| Valderi Douglas      | Desenvolvedor | <a href="https://github.com/ValderiDouglas"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a> | <a href="https://br.linkedin.com/in/valderidouglas"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a> |
-| Pedro Antonio          | Desenvolvedor | <a href="https://github.com/Pedro-Toledo"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a>       | <a href="https://br.linkedin.com/in/pedro-antonio-rizzo-toledo-71b465232"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a> |
-| Lucas Vinicius          | Desenvolvedor | <a href="https://github.com/LucasVinicius32"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a>       | <a href="https://www.linkedin.com/in/lucasviniciussoares/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a> |
+| :----: | :----: | :----: | :------: |
+| Julio de Paula        | Product Owner/Desenvolvedor  | [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/JulioPm142) | [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/j%C3%BAlio-machado-7a07a4250/) |
+| Jonatas Mathias       | Scrum Master/Desenvolvedor   | [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Jonatas-Dallo) | [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jonatas-mathias-147638206/) |
+| Gabriel da Cunha      | Desenvolvedor  | [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Tuuca) | [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gabriel-da-cunha-de-macedo-199890250/) |
+| Ryan Alves            | Desenvolvedor  | [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/XLryan246) | [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ryan-alves-661ba823b/) |
+| Valderi Douglas       | Desenvolvedor  | [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ValderiDouglas) | [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://br.linkedin.com/in/valderidouglas) |
+| Pedro Antonio         | Desenvolvedor  | [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Pedro-Toledo) | [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://br.linkedin.com/in/pedro-antonio-rizzo-toledo-71b465232) |
+| Lucas Vinicius        | Desenvolvedor  | [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/LucasVinicius32) | [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lucasviniciussoares/) |
