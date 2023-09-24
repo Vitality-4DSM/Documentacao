@@ -90,24 +90,27 @@ baseada em problemas
 
 ## :dart: Backlog Total <a id="backlog"></a>
 
-| Tarefa                                        | Prioridade                                                                                                                                                                                                                                      | User Stories     | Critério de Aceitação | Sprint | Status |
-| :-------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :-----------: | :--------: | :----: | :----: |
-| Proteção de rotas | Alta 🟥 |  |  | 1 | 🔄 |
-| Modelo de dados | Alta 🟥 |  |  | 1 | 🔄 |
-| Banco relacional | Alta 🟥 |  |  | 1 | 🔄 |
-| Mockup das páginas do projeto | Media 🟨 |  |  | 1 | 🔄 |
-| Página de estações | Alta 🟥 |  |  | 2 | 🔄 ||
-| Página de dashboard | Alta 🟥 |  |  | 2 | 🔄 |
-| Página de login | Alta 🟥 |  |  | 2 | 🔄 |
-| Guia dos parâmetros | Alta 🟥 |  |  | 2 | 🔄 |
-| Programar uma estação com C | Alta 🟥 |  |  | 3 | 🔄 |
-| Página de usuário | Alta 🟥 |  |  | 3 | 🔄 |
-| Banco não relacional | Alta 🟥 |  |  | 3 | 🔄 |
-| Página de alerta | Alta 🟥 |  |  | 3 | 🔄 |
-| Construir uma estação com arduino | Alta 🟥 |  |  | 4 | 🔄 |
-| Historico de ações do usuário | Baixo 🟩 |  |  | 4 | 🔄 |
-| Documentação do projeto | Alta 🟥 |  |  | Entrega contínua | 🔄 
-| Ferramentas de DevOps | Alta 🟥 |  |  | Entrega contínua | 🔄 |
+| Tarefa | Prioridade | User Stories | Critério de Aceitação | Sprint | Status |
+| :----: | :--------: | :----------: | :-------------------: | :----: | :----: |
+| Modelo de dados | Alta 🟥 | Eu, como cliente, quero que seja feito um modelo de dados dos bancos que serão usados para visualizar como serão feitos os bancos de dados. | Criar o modelo físico relacional do banco relacional e não relacional. | 1 | ✅ |
+| Arquitetura do projeto | Alta 🟥 | Eu, como cliente, quero que seja feito um mapa de como será o fluxo do projeto. | Documentar a arquitetura do projeto. | 1 | ✅ |
+| Mockup das páginas do projeto | Média 🟨 | Eu, como cliente, quero que seja feito um mockup das páginas do projeto para visualizar como serão feitas. | Criar as páginas no Figma e validar com o cliente. | 1 | ✅ |
+| Banco relacional | Alta 🟥 | Eu, como cliente, quero um banco de dados onde as informações possam ser salvas e usadas quando necessário. | Criar o banco relacional no MySQL. | 1 | ✅ |
+| Proteção de rotas | Alta 🟥 | Eu, como cliente do sistema, quero que as rotas sejam protegidas para que apenas pessoas autorizadas possam usar certas funções do sistema. | Proteger os backends, permitindo o acesso às rotas apenas com token. | 2 | 🔄 |
+| Página de estações | Alta 🟥 | Eu, como cliente, quero que o sistema tenha um CRUD completo de estações. | Criar uma página capaz de realizar o CRUD de estações. | 2 | 🔄 |
+| Página de parâmetros | Alta 🟥 | Eu, como cliente, quero que o sistema tenha um CRUD completo de parâmetros. | Criar uma página capaz de realizar o CRUD de parâmetros. | 2 | 🔄 |
+| Página de dashboard | Alta 🟥 | Eu, como cliente, quero que o sistema tenha um dashboard que permitirá visualizar as informações salvas no banco de dados. | Criar uma página que terá gráficos exibindo informações do banco relacionadas aos parâmetros coletados. | 2 | 🔄 |
+| Página de login | Alta 🟥 | Eu, como cliente, quero que o sistema tenha um perfil público e de administrador para manter a segurança do projeto. | Criar uma página que disponibilizará o token após um login bem-sucedido para usar opções de administrador. | 2 | 🔄 |
+| Guia dos parâmetros | Alta 🟥 | Eu, como cliente, quero uma área que descreva sobre os parâmetros usados no projeto para fins educacionais de quem usar o site. | Criar uma página que conterá uma explicação dos parâmetros cadastrados no sistema. | 2 | 🔄 |
+| Programar uma estação com C | Alta 🟥 | Eu, como cliente, quero que uma estação seja criada usando código em C e Arduino. | Desenvolver o código que será usado na estação. | 3 | 🔄 |
+| Página de usuário | Alta 🟥 | Eu, como cliente, quero que o sistema tenha um CRUD de usuários para facilitar o controle de administradores. | Criar uma página que conterá o CRUD de usuários do sistema. | 3 | 🔄 |
+| Banco não relacional | Alta 🟥 | Eu, como cliente, quero um banco de dados capaz de lidar com o grande fluxo de dados recebidos das estações. | Criar o banco não relacional no MongoDB para conseguir lidar com grandes volumes de dados recebidos, mantendo a performance e não sobrecarregando o sistema. Os dados serão enviados para o banco relacional a cada 30 segundos. | 3 | 🔄 |
+| Página de alerta | Alta 🟥 | Eu, como cliente, quero que tenha um CRUD completo de alertas que devem ser disparados e listados em um histórico. | Criar uma página que terá um CRUD dos alertas. Os alertas poderão ser cadastrados com base em certos tipos de verificações, e ao serem acionados, criarão uma notificação e aparecerão no histórico. | 3 | 🔄 |
+| Construir uma estação com Arduino | Alta 🟥 | Eu, como cliente, quero que uma estação seja criada usando código em C e Arduino. | Construção da estação com Arduino, e uso do código desenvolvido. | 4 | 🔄 |
+| Histórico de ações do usuário | Baixa 🟩 | Eu, como cliente, quero que haja no banco de dados um histórico de ações dos administradores. | Criar uma função no backend que pegará o usuário que está usando e salvará no banco para saber quem fez o quê. | 4 | 🔄 |
+| Documentação do projeto | Alta 🟥 | Eu, como Fatec, quero que o projeto tenha cada sprint documentada no GitHub para avaliação. | Preencher e atualizar o GitHub com as documentações relevantes do projeto para fins de organização e avaliação. | Entrega contínua | 🔄 |
+| Ferramentas de DevOps | Alta 🟥 | Eu, como Fatec, quero que sejam incorporados processos de DevOps na realização do projeto. | Uso de processos de DevOps para desenvolver mais as habilidades da equipe em entrega contínua. | Entrega contínua | 🔄 |
+
 
 <br>
 
@@ -126,7 +129,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 ## :date: Sprints <a id="sprint"></a>
 
-🔖 SPRINT 1 ([Link da Pasta](https://github.com/Vitality-4DSM/Documentacao/tree/main/Documenta%C3%A7%C3%A3o/Sprint/Sprint%201)):  Em andamento 🏃
+🔖 SPRINT 1 ([Link da Pasta](https://github.com/Vitality-4DSM/Documentacao/tree/main/Documenta%C3%A7%C3%A3o/Sprint/Sprint%201)): ✅ Concluída. 
 
 🔖 SPRINT 2 ([Link da Pasta](https://github.com/Vitality-4DSM/Documentacao/tree/main/Documenta%C3%A7%C3%A3o/Sprint/Sprint%202)):  Aguardando.
 
