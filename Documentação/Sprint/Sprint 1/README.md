@@ -4,7 +4,7 @@
 </p>
 Na primeira sprint foi avaliado o desafio proposto pelo cliente, e após conversas para entender a dor e soluções, concluiu-se que precisaríamos desenvolver um projeto, capaz de lidar com grandes quantidade de dados, que seriam recebidos de varias estações meteorológicas, que serão feitas usando arduinos capazes de capturar parâmetros atmosféricos, os enviando como json para um Backend, que pegará os dados e salvará num banco não relacional, permitindo uma alta performasse e capacidade de lidar com altas quantidades de dados.
 Um segundo Backend será responsável por de 30 em 30 segundos, pegar os dados brutos do não relacional e os tratar, para salvar nos padrões de um banco relacional, onde ficaram salvas as informações com suas devidas relações. Além disso o segundo Backend também ficará responsável, pelas requisições e respostas do Frontent com o banco de dados relacional.
-Na primeira sprint, foi acordado com o cliente que o Mvp, seria a documentação do projeto que inclui modelo de dados relacional e não relacional, mockup feito no figma das páginas e CRUD inicial do projeto no backend, com proteção de rota usando JWT.
+Na primeira sprint, foi acordado com o cliente que o Mvp, seria a documentação do projeto que inclui modelo de dados relacional e não relacional, mockup feito no figma das páginas e arquitetura do projeto.
 
 
 ## 🎲 Modelo de dados
@@ -30,4 +30,8 @@ Na primeira sprint, foi acordado com o cliente que o Mvp, seria a documentação
 <img src="https://github.com/whatscodeg3/API-3DSM-Frontend/assets/73721760/d5e2e1ce-863e-4fe9-a8cd-22674bb18c17" width="500">
 
 
+## 🛠️ Arquitetura do projeto
+<img src="https://github.com/Vitality-4DSM/Documentacao/assets/73721760/36f6ba0d-4a0e-4ca5-887a-94ad18d5c093" width="500">
+
 ## 📉 Burndown 
+<img src="https://github.com/Vitality-4DSM/Documentacao/assets/73721760/6c8b31e6-c046-4721-bac8-15f6a7b3ccfa" >
