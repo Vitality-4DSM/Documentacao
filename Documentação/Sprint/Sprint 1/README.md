@@ -6,14 +6,16 @@ Na primeira sprint foi avaliado o desafio proposto pelo cliente, e após convers
 Um segundo Backend será responsável por de 30 em 30 segundos, pegar os dados brutos do não relacional e os tratar, para salvar nos padrões de um banco relacional, onde ficaram salvas as informações com suas devidas relações. Além disso o segundo Backend também ficará responsável, pelas requisições e respostas do Frontent com o banco de dados relacional.
 Na primeira sprint, foi acordado com o cliente que o Mvp, seria a documentação do projeto que inclui modelo de dados relacional e não relacional, mockup feito no figma das páginas e arquitetura do projeto.
 
+## 🎥 Video do projeto:
+[- Clique aqui para abrir no youtube!](https://www.youtube.com/watch?v=TStkhW3__no)
 
 ## 🎲 Modelo de dados
 
 ### Modelo do banco relacional:
-<img src="https://github.com/Vitality-4DSM/Documentacao/assets/73721760/3900cb95-9855-47aa-b922-0746c39b238f" width="1000">
+<img src="https://github.com/Vitality-4DSM/Documentacao/assets/73721760/3900cb95-9855-47aa-b922-0746c39b238f" width="750">
 
 ### Modelo do banco não relacional:
-<img src="https://github.com/Vitality-4DSM/Documentacao/assets/73721760/351ab2b4-c424-463d-bd4e-ebe727c9a66f" width="1000">
+<img src="https://github.com/Vitality-4DSM/Documentacao/assets/73721760/351ab2b4-c424-463d-bd4e-ebe727c9a66f" width="750">
 
 ## 📝 Mockup
 
