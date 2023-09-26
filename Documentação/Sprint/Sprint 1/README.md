@@ -13,7 +13,7 @@ Na primeira sprint, foi acordado com o cliente que o Mvp, seria a documentação
 <img src="https://github.com/Vitality-4DSM/Documentacao/assets/73721760/3900cb95-9855-47aa-b922-0746c39b238f" width="1000">
 
 ### Modelo do banco não relacional:
-<img src="https://github.com/Vitality-4DSM/Documentacao/assets/73721760/f3fa9cb0-81f5-4520-b3aa-53c8e48924b8" width="1000">
+<img src="https://github.com/Vitality-4DSM/Documentacao/assets/73721760/351ab2b4-c424-463d-bd4e-ebe727c9a66f" width="1000">
 
 ## 📝 Mockup
 
