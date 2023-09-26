@@ -129,7 +129,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 ## :date: Sprints <a id="sprint"></a>
 
-🔖 SPRINT 1 ([Link da Pasta](https://github.com/Vitality-4DSM/Documentacao/tree/main/Documenta%C3%A7%C3%A3o/Sprint/Sprint%201)): (✅) - Concluída. 
+🔖 SPRINT 1 ([Link da Pasta](https://github.com/Vitality-4DSM/Documentacao/tree/main/Documenta%C3%A7%C3%A3o/Sprint/Sprint%201)): (✅) - Concluída.  ([Link do Vídeo](https://www.youtube.com/watch?v=TStkhW3__no))
 
 🔖 SPRINT 2 ([Link da Pasta](https://github.com/Vitality-4DSM/Documentacao/tree/main/Documenta%C3%A7%C3%A3o/Sprint/Sprint%202)): (🔄) - Aguardando.
 
