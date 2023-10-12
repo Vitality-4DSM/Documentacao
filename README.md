@@ -124,7 +124,6 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [TypeScript](https://www.typescriptlang.org/)
 - [Bitbucket](https://bitbucket.org/)
 - [Jira](https://www.atlassian.com/br/software/jira)
-- [Versel](https://vercel.com/)
 
 <br>
 
@@ -132,7 +131,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 🔖 SPRINT 1 ([Link da Pasta](https://github.com/Vitality-4DSM/Documentacao/tree/main/Documenta%C3%A7%C3%A3o/Sprint/Sprint%201)): (✅) - Concluída. 
 
-🔖 SPRINT 2 ([Link da Pasta](https://github.com/Vitality-4DSM/Documentacao/tree/main/Documenta%C3%A7%C3%A3o/Sprint/Sprint%202)): (🔄) - Aguardando.
+🔖 SPRINT 2 ([Link da Pasta](https://github.com/Vitality-4DSM/Documentacao/tree/main/Documenta%C3%A7%C3%A3o/Sprint/Sprint%202)): (✅) - Concluída. 
 
 🔖 SPRINT 3 ([Link da Pasta](https://github.com/Vitality-4DSM/Documentacao/tree/main/Documenta%C3%A7%C3%A3o/Sprint/Sprint%203)): (🔄) - Aguardando.
 
