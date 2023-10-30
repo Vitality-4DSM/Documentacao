@@ -122,14 +122,14 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [Node.js](https://nodejs.org/en/)
 - [React](https://pt-br.reactjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
-- [Bitbucket](https://bitbucket.org/)
 - [Jira](https://www.atlassian.com/br/software/jira)
+- - [Arduino](https://www.arduino.cc/)
 
 <br>
 
 ## :date: Sprints <a id="sprint"></a>
 
-🔖 SPRINT 1 ([Link da Pasta](https://github.com/Vitality-4DSM/Documentacao/tree/main/Documenta%C3%A7%C3%A3o/Sprint/Sprint%201)): (✅) - Concluída.  ([Link do Vídeo](https://www.youtube.com/watch?v=TStkhW3__no))
+🔖 SPRINT 1 ([Link da Pasta](https://github.com/Vitality-4DSM/Documentacao/tree/main/Documenta%C3%A7%C3%A3o/Sprint/Sprint%201)): (✅) - Concluída.
 
 🔖 SPRINT 2 ([Link da Pasta](https://github.com/Vitality-4DSM/Documentacao/tree/main/Documenta%C3%A7%C3%A3o/Sprint/Sprint%202)): (✅) - Concluída. 
 
