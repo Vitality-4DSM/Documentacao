@@ -17,6 +17,3 @@ Na segunda sprint, foi decidido que a entrega de valor consistiria no desenvolvi
 
 ## 📉 Burndown 
 <img src="https://github.com/Vitality-4DSM/Documentacao/assets/73721760/ba10d210-6355-411a-b259-3fa4dec14b24">
-
-## Jira
-https://valderi-api.atlassian.net/jira/software/c/projects/VA/boards/3
