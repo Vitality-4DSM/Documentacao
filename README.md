@@ -11,6 +11,7 @@
   <a href="#desafio">Desafio</a> • 
   <a href="#escopo">Escopo do Projeto</a> • 
   <a href="#backlog">Backlog das Sprints</a> • 
+  <a href="#rastreamento">Rastreamento de Requisitos</a> • 
   <a href="#tecnologia">Tecnologias</a> •
   <a href="#sprint">Sprints</a> • 
   <a href="#equipe">Equipe</a>  
@@ -112,6 +113,11 @@ baseada em problemas
 | Documentação do projeto | Alta 🟥 | Eu, como Fatec, quero que o projeto tenha cada sprint documentada no GitHub para avaliação. | Preencher e atualizar o GitHub com as documentações relevantes do projeto para fins de organização e avaliação. | Entrega contínua | 🔄 |
 | Ferramentas de DevOps | Alta 🟥 | Eu, como Fatec, quero que sejam incorporados processos de DevOps na realização do projeto. | Uso de processos de DevOps para desenvolver mais as habilidades da equipe em entrega contínua. | Entrega contínua | 🔄 |
 
+<br>
+
+## Rastreamento de Requisitos <a id="rastreamento"></a>
+
+<img src="https://github.com/Vitality-4DSM/Documentacao/blob/main/Documenta%C3%A7%C3%A3o/DevOps/Backlog.png?raw=true" width="450">
 
 <br>
 
@@ -123,7 +129,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [React](https://pt-br.reactjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [Jira](https://www.atlassian.com/br/software/jira)
-- - [Arduino](https://www.arduino.cc/)
+- [Arduino](https://www.arduino.cc/)
 
 <br>
 
