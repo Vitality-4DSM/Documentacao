@@ -102,11 +102,11 @@ baseada em problemas
 | Página de login | Média 🟨 | Eu, como cliente, quero que o sistema tenha um perfil público e de administrador para manter a segurança do projeto. | Criar uma página que disponibilizará o token após um login bem-sucedido para usar opções de administrador. | 2 | ✅ |
 | Banco não relacional | Média 🟨 | Eu, como cliente, quero um banco de dados capaz de lidar com o grande fluxo de dados recebidos das estações. | Criar o banco não relacional no MongoDB para conseguir lidar com grandes volumes de dados recebidos, mantendo a performance e não sobrecarregando o sistema. Os dados serão enviados para o banco relacional a cada 30 segundos. | 2 | ✅ |
 | Sincronização do não relacional pro relacional | Média 🟨 | Eu, como cliente, quero que seja feito uma sincronização entre o banco não relacional e relacional, pegando os dados e os tratando para passar de um para o outro, a cada 30 segundos. | Criar uma sincronização automatica, que passa dados do não relacional pro relacional de 30 em 30 segundos. | 2 | ✅ |
-| Página de parâmetros | Alta 🟥 | Eu, como cliente, quero que o sistema tenha um CRUD completo de parâmetros. | Criar uma página capaz de realizar o CRUD de parâmetros. | 3 | 🔄 |
-| Página de dashboard | Alta 🟥 | Eu, como cliente, quero que o sistema tenha um dashboard que permitirá visualizar as informações salvas no banco de dados. | Criar uma página que terá gráficos exibindo informações do banco relacionadas aos parâmetros coletados. | 3 | 🔄 |
-| Guia dos parâmetros | Alta 🟥 | Eu, como cliente, quero uma área que descreva sobre os parâmetros usados no projeto para fins educacionais de quem usar o site. | Criar uma página que conterá uma explicação dos parâmetros cadastrados no sistema. | 3 | 🔄 |
-| Programar uma estação com C | Alta 🟥 | Eu, como cliente, quero que uma estação seja criada usando código em C e Arduino. | Desenvolver o código que será usado na estação. | 3 | 🔄 |
-| Página de usuário | Média 🟨 | Eu, como cliente, quero que o sistema tenha um CRUD de usuários para facilitar o controle de administradores. | Criar uma página que conterá o CRUD de usuários do sistema. | 3 | 🔄 |
+| Página de parâmetros | Alta 🟥 | Eu, como cliente, quero que o sistema tenha um CRUD completo de parâmetros. | Criar uma página capaz de realizar o CRUD de parâmetros. | 3 | ✅ |
+| Página de dashboard | Alta 🟥 | Eu, como cliente, quero que o sistema tenha um dashboard que permitirá visualizar as informações salvas no banco de dados. | Criar uma página que terá gráficos exibindo informações do banco relacionadas aos parâmetros coletados. | 3 | ✅ |
+| Guia dos parâmetros | Alta 🟥 | Eu, como cliente, quero uma área que descreva sobre os parâmetros usados no projeto para fins educacionais de quem usar o site. | Criar uma página que conterá uma explicação dos parâmetros cadastrados no sistema. | 3 | ✅ |
+| Programar uma estação com C | Alta 🟥 | Eu, como cliente, quero que uma estação seja criada usando código em C e Arduino. | Desenvolver o código que será usado na estação. | 3 | ✅ |
+| Página de usuário | Média 🟨 | Eu, como cliente, quero que o sistema tenha um CRUD de usuários para facilitar o controle de administradores. | Criar uma página que conterá o CRUD de usuários do sistema. | 3 | ✅ |
 | Página de alerta | Alta 🟥 | Eu, como cliente, quero que tenha um CRUD completo de alertas que devem ser disparados e listados em um histórico. | Criar uma página que terá um CRUD dos alertas. Os alertas poderão ser cadastrados com base em certos tipos de verificações, e ao serem acionados, criarão uma notificação e aparecerão no histórico. | 4 | 🔄 |
 | Construir uma estação com Arduino | Média 🟨 | Eu, como cliente, quero que uma estação seja criada usando código em C e Arduino. | Construção da estação com Arduino, e uso do código desenvolvido. | 4 | 🔄 |
 | Histórico de ações do usuário | Baixa 🟩 | Eu, como cliente, quero que haja no banco de dados um histórico de ações dos administradores. | Criar uma função no backend que pegará o usuário que está usando e salvará no banco para saber quem fez o quê. | 4 | 🔄 |
@@ -134,14 +134,14 @@ As seguintes ferramentas foram usadas na construção do projeto:
 <br>
 
 ## :date: Sprints <a id="sprint"></a>
-
+[RNF #3] Documentação
 🔖 SPRINT 1 ([Link da Pasta](https://github.com/Vitality-4DSM/Documentacao/tree/main/Documenta%C3%A7%C3%A3o/Sprint/Sprint%201)): (✅) - Concluída.
 
 🔖 SPRINT 2 ([Link da Pasta](https://github.com/Vitality-4DSM/Documentacao/tree/main/Documenta%C3%A7%C3%A3o/Sprint/Sprint%202)): (✅) - Concluída. 
 
-🔖 SPRINT 3 ([Link da Pasta](https://github.com/Vitality-4DSM/Documentacao/tree/main/Documenta%C3%A7%C3%A3o/Sprint/Sprint%203)): (🔄) - Em andamento.
+🔖 SPRINT 3 ([Link da Pasta](https://github.com/Vitality-4DSM/Documentacao/tree/main/Documenta%C3%A7%C3%A3o/Sprint/Sprint%203)): (✅) - Concluída.
 
-🔖 SPRINT 4 ([Link da Pasta](https://github.com/Vitality-4DSM/Documentacao/tree/main/Documenta%C3%A7%C3%A3o/Sprint/Sprint%204)): (🔄) - Aguardando.
+🔖 SPRINT 4 ([Link da Pasta](https://github.com/Vitality-4DSM/Documentacao/tree/main/Documenta%C3%A7%C3%A3o/Sprint/Sprint%204)): (🔄) - Em andamento.
 
 <br>
 
