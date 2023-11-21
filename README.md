@@ -11,7 +11,8 @@
   <a href="#desafio">Desafio</a> • 
   <a href="#escopo">Escopo do Projeto</a> • 
   <a href="#backlog">Backlog das Sprints</a> • 
-  <a href="#rastreamento">Rastreamento de Requisitos</a> • 
+  <a href="#rastreamento">Rastreamento de Requisitos</a> •
+  <a href="#devops">DevOps</a> •
   <a href="#tecnologia">Tecnologias</a> •
   <a href="#sprint">Sprints</a> • 
   <a href="#equipe">Equipe</a>  
@@ -121,6 +122,12 @@ baseada em problemas
 
 <br>
 
+## Pipeline de DevOps <a id="devops"></a>
+
+- ([Clique aqui para verificar](https://github.com/Vitality-4DSM/Documentacao/blob/main/Documenta%C3%A7%C3%A3o/DevOps/pipeline.md))
+
+<br>
+
 ## 🛠 Tecnologias <a id="tecnologia"></a>
 
 As seguintes ferramentas foram usadas na construção do projeto:
@@ -135,13 +142,13 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 ## :date: Sprints <a id="sprint"></a>
 
-🔖 SPRINT 1 ([Link da Pasta](https://github.com/Vitality-4DSM/Documentacao/tree/main/Documenta%C3%A7%C3%A3o/Sprint/Sprint%201)): (✅) - Concluída.
+[ 🔖SPRINT 1](https://github.com/Vitality-4DSM/Documentacao/tree/main/Documenta%C3%A7%C3%A3o/Sprint/Sprint%201)(✅) - Concluída.
 
-🔖 SPRINT 2 ([Link da Pasta](https://github.com/Vitality-4DSM/Documentacao/tree/main/Documenta%C3%A7%C3%A3o/Sprint/Sprint%202)): (✅) - Concluída. 
+[🔖 SPRINT 2](https://github.com/Vitality-4DSM/Documentacao/tree/main/Documenta%C3%A7%C3%A3o/Sprint/Sprint%202)(✅) - Concluída. 
 
-🔖 SPRINT 3 ([Link da Pasta](https://github.com/Vitality-4DSM/Documentacao/tree/main/Documenta%C3%A7%C3%A3o/Sprint/Sprint%203)): (✅) - Concluída.
+[🔖 SPRINT 3](https://github.com/Vitality-4DSM/Documentacao/tree/main/Documenta%C3%A7%C3%A3o/Sprint/Sprint%203)(✅) - Concluída.
 
-🔖 SPRINT 4 ([Link da Pasta](https://github.com/Vitality-4DSM/Documentacao/tree/main/Documenta%C3%A7%C3%A3o/Sprint/Sprint%204)): (🔄) - Em andamento.
+[🔖 SPRINT 4](https://github.com/Vitality-4DSM/Documentacao/tree/main/Documenta%C3%A7%C3%A3o/Sprint/Sprint%204)(🔄) - Em andamento.
 
 <br>
 
