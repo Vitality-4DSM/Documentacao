@@ -118,7 +118,7 @@ baseada em problemas
 
 ## Rastreamento de Requisitos <a id="rastreamento"></a>
 
-<img src="https://github.com/Vitality-4DSM/Documentacao/blob/main/Documenta%C3%A7%C3%A3o/DevOps/Backlog.png?raw=true" width="450">
+<img src="https://github.com/Vitality-4DSM/Documentacao/blob/main/Documentação/Backlog.png" width="450">
 
 <br>
 
