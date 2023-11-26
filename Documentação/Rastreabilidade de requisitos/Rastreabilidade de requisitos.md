@@ -17,7 +17,7 @@ Todos requisitos estão sendo referenciados por um prefixo que ajuda na indentif
 Ao construir o Backlog com essa divisão fica explícito o valor potencial de cada task e construindo uma ponte para a identificação do commit.
 
 <h3>Exemplo dos prefixo usado no Jira e integrado aos commits do GitHub </h3>
-<img src="https" width="450">
+<img src="https://github.com/Vitality-4DSM/Documentacao/blob/main/Documentação/GitJira.png" width="900">
 
 
 
