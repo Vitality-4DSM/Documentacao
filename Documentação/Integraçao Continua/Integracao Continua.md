@@ -29,8 +29,8 @@ Automação de Testes:
 
 - Além de utilizar a função de Secrets no Github para utilizar arquivos confidenciais da maquina virtual
 
-<img src="https://github.com/Vitality-4DSM/Documentacao/blob/main/Documentação/Deploy%20Aut.png" alt="" width="800">
-<img src="https://github.com/Vitality-4DSM/Documentacao/blob/main/Documentação/Deploy%20Aut.png" alt="" width="800">
+<img src="https://github.com/Vitality-4DSM/Documentacao/blob/main/Documentação/Secret.png" alt="" width="800">
+<img src="https://github.com/Vitality-4DSM/Documentacao/blob/main/Documentação/UpSecret.png" alt="" width="800">
 
 ## Video de execucão 
 https://youtu.be/I99TeYKhRVY?si=fIz-nE3PNJashB4O
