@@ -94,8 +94,8 @@ baseada em problemas
 
 | Tarefa | Prioridade | User Stories | Critério de Aceitação | Sprint | Status |
 | :----: | :--------: | :----------: | :-------------------: | :----: | :----: |
-| Documentação do projeto | Alta 🟥 | Eu, como Fatec, quero que o projeto tenha cada sprint documentada no GitHub para avaliação. | Preencher e atualizar o GitHub com as documentações relevantes do projeto para fins de organização e avaliação. | Entrega contínua | 🔄 |
-| Ferramentas de DevOps | Alta 🟥 | Eu, como Fatec, quero que sejam incorporados processos de DevOps na realização do projeto. | Uso de processos de DevOps para desenvolver mais as habilidades da equipe em entrega contínua. | Entrega contínua | 🔄 |
+| Documentação do projeto | Alta 🟥 | Eu, como Fatec, quero que o projeto tenha cada sprint documentada no GitHub para avaliação. | Preencher e atualizar o GitHub com as documentações relevantes do projeto para fins de organização e avaliação. | Entrega contínua | ✅ |
+| Ferramentas de DevOps | Alta 🟥 | Eu, como Fatec, quero que sejam incorporados processos de DevOps na realização do projeto. | Uso de processos de DevOps para desenvolver mais as habilidades da equipe em entrega contínua. | Entrega contínua | ✅ |
 | Modelo de dados | Alta 🟥 | Eu, como cliente, quero que seja feito um modelo de dados dos bancos que serão usados para visualizar como serão feitos os bancos de dados. | Criar o modelo físico relacional do banco relacional e não relacional. | 1 | ✅ |
 | Arquitetura do projeto | Alta 🟥 | Eu, como cliente, quero que seja feito um mapa de como será o fluxo do projeto. | Documentar a arquitetura do projeto. | 1 | ✅ |
 | Layout das páginas do projeto | Média 🟨 | Eu, como cliente, quero que seja feito um mockup das páginas do projeto para visualizar como serão feitas. | Criar as páginas no Figma e validar com o cliente. | 1 | ✅ |
@@ -108,11 +108,11 @@ baseada em problemas
 | Página de parâmetros | Alta 🟥 | Eu, como cliente, quero que o sistema tenha um CRUD completo de parâmetros. | Criar uma página capaz de realizar o CRUD de parâmetros. | 3 | ✅ |
 | Página de dashboard | Alta 🟥 | Eu, como cliente, quero que o sistema tenha um dashboard que permitirá visualizar as informações salvas no banco de dados. | Criar uma página que terá gráficos exibindo informações do banco relacionadas aos parâmetros coletados. | 3 | ✅ |
 | Guia dos parâmetros | Alta 🟥 | Eu, como cliente, quero uma área que descreva sobre os parâmetros usados no projeto para fins educacionais de quem usar o site. | Criar uma página que conterá uma explicação dos parâmetros cadastrados no sistema. | 3 | ✅ |
+| Deploy | Alta 🟥 | Eu, como cliente, quero que o projeto tenha um deploy automático. | Criar um script para iniciar a aplicação e integrá-la à entrega contínua. | 3 | ✅ |
 | Programar uma estação com C | Alta 🟥 | Eu, como cliente, quero que uma estação seja criada usando código em C e Arduino. | Desenvolver o código que será usado na estação. | 3 | ✅ |
 | Página de usuário | Média 🟨 | Eu, como cliente, quero que o sistema tenha um CRUD de usuários para facilitar o controle de administradores. | Criar uma página que conterá o CRUD de usuários do sistema. | 3 | ✅ |
-| Página de alerta | Média 🟨 | Eu, como cliente, quero que tenha um CRUD completo de alertas que devem ser disparados e listados em um histórico. | Criar uma página que terá um CRUD dos alertas. Os alertas poderão ser cadastrados com base em certos tipos de verificações, e ao serem acionados, criarão uma notificação e aparecerão no histórico. | 4 | 🔄 |
-| Construir uma estação com Arduino | Média 🟨 | Eu, como cliente, quero que uma estação seja criada usando código em C e Arduino. | Construção da estação com Arduino, e uso do código desenvolvido. | 4 | 🔄 |
-| Histórico de ações do usuário | Baixa 🟩 | Eu, como cliente, quero que haja no banco de dados um histórico de ações dos administradores. | Criar uma função no backend que pegará o usuário que está usando e salvará no banco para saber quem fez o quê. | 4 | 🔄 |
+| Página de alerta | Média 🟨 | Eu, como cliente, quero que tenha um CRUD completo de alertas que devem ser disparados e listados em um histórico. | Criar uma página que terá um CRUD dos alertas. Os alertas poderão ser cadastrados com base em certos tipos de verificações, e ao serem acionados, criarão uma notificação e aparecerão no histórico. | 4 | ✅ |
+| Construir uma estação com Arduino | Média 🟨 | Eu, como cliente, quero que uma estação seja criada usando código em C e Arduino. | Construção da estação com Arduino, e uso do código desenvolvido. | 4 | ✅ |
 
 <br>
 
@@ -148,7 +148,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 [🔖 SPRINT 3](https://github.com/Vitality-4DSM/Documentacao/tree/main/Documenta%C3%A7%C3%A3o/Sprint/Sprint%203)(✅) - Concluída.
 
-[🔖 SPRINT 4](https://github.com/Vitality-4DSM/Documentacao/tree/main/Documenta%C3%A7%C3%A3o/Sprint/Sprint%204)(🔄) - Em andamento.
+[🔖 SPRINT 4](https://github.com/Vitality-4DSM/Documentacao/tree/main/Documenta%C3%A7%C3%A3o/Sprint/Sprint%204)(✅) - Concluída.
 
 <br>
 

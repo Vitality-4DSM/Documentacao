@@ -4,10 +4,6 @@
       <h2 align="center">Pipeline</h2>
 <hr>
 
-<p align="center">
-  <a href="#branches">Branches</a> • 
-  <a href="#deployment">Deployment</a>
-</p>
 
 # Explicação das branches <a id="branches"></a>
 
