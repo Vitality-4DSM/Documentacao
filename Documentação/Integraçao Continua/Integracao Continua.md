@@ -15,7 +15,7 @@ Automação de Testes:
 ## Automatização dos Testes:
 - Para a execução de testes foi usado o Git Actions que permite criar uma maquina virtual temporária que pode realizar diversas funções de Integração continua.
 - Utilizando um arquivo YML em um repositório com o padrão de pasta sendo: NOME_REPOSITORIO/.github/workflows/Arquivo.yml
-<img src="" alt="" width="800">
+<img src="https://github.com/Vitality-4DSM/Documentacao/blob/main/Documentação/Teste.png" alt="" width="800">
 
 ## Video de execucão 
 - https://youtu.be/Bi_Ob41WQeo?si=28cewdIBwyjo-D2V
@@ -29,7 +29,7 @@ Automação de Testes:
 - Uma para se Conectar a Maquina e compartilhar arquivos
 - E outra para realizar comandos SSH
 - Além de utilizar a função de Secrets no Github para utilizar arquivos confidenciais da maquina virtual
-<img src="" alt="" width="800">
+<img src="https://github.com/Vitality-4DSM/Documentacao/blob/main/Documentação/Deploy%20Aut.png" alt="" width="800">
 
 ## Video de execucão 
 https://youtu.be/I99TeYKhRVY?si=fIz-nE3PNJashB4O
