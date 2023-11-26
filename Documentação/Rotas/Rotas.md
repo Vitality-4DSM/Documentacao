@@ -23,13 +23,15 @@ Para utilizar o Swagger em nosso projeto, é necessário realizar o download e a
 ## Exemplos de rotas do sistema
 Ao visitar a página web do sistema por meio desse link, você terá acesso a uma visão abrangente de todas as rotas disponíveis em nosso sistema. 
 
+<img src="https://github.com/Vitality-4DSM/Documentacao/blob/main/Documentação/PaginaTotal.png" alt="" width="800">
+
 ## Exemplo de como deverá passar o json
 Serão fornecidos exemplos do formato JSON necessário para realizar as requisições REST. 
-
+<img src="https://github.com/Vitality-4DSM/Documentacao/blob/main/Documentação/Exemplo%20de%20Json.png" alt="" width="800">
 
 ## Response do sistema
 assim  serão as respostas que nosso sistema retornará ao efetuar essas solicitações. 
-
+<img src="https://github.com/Vitality-4DSM/Documentacao/blob/main/Documentação/Resposta.png" alt="" width="800">
 
 
 Essas abordagem não apenas simplifica a compreensão das operações disponíveis, mas também facilita a realização de testes práticos, tornando o processo de interação com o sistema mais intuitivo e eficiente.
