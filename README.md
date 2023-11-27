@@ -116,13 +116,15 @@ baseada em problemas
 
 <br>
 
-## Rastreamento de Requisitos <a id="rastreamento"></a>
-
-<img src="https://github.com/Vitality-4DSM/Documentacao/blob/main/Documentação/Backlog.png" width="450">
-
-<br>
-
-## Pipeline de DevOps <a id="devops"></a>
+## Documentação DevsOps <a id="rastreamento"></a>
+- ([Branch](https://github.com/Vitality-4DSM/Documentacao/blob/main/Documentação/Branch/Branch.md))
+- ([Deploy](https://github.com/Vitality-4DSM/Documentacao/blob/main/Documentação/Deploy/Deploy.md))
+- ([Integração Continua ](https://github.com/Vitality-4DSM/Documentacao/blob/main/Documentação/Integraçao%20Continua/Integracao%20Continua.md))
+- ([Monitoramento ](https://github.com/Vitality-4DSM/Documentacao/blob/main/Documentação/Monitoramento/Monitoramento.md))
+- ([Rastreabilidade de requisitos](https://github.com/Vitality-4DSM/Documentacao/blob/main/Documentação/Rastreabilidade%20de%20requisitos/Rastreabilidade%20de%20requisitos.md))
+- ([Rotas](https://github.com/Vitality-4DSM/Documentacao/blob/main/Documentação/Rotas/Rotas.md))
+- ([Teste](https://github.com/Vitality-4DSM/Documentacao/blob/main/Documentação/Testes/Teste.md))
+  
 
 - ([Clique aqui para verificar](https://github.com/Vitality-4DSM/Documentacao/blob/main/Documenta%C3%A7%C3%A3o/DevOps/pipeline.md))
 
