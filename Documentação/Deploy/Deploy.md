@@ -28,7 +28,18 @@ Garantia de Qualidade:
 
 ## Requisitos do projeto
 
- Conversando com o cliente, foi levantado que o projeto deveria ser desenvolvido para o sistema Linux, e o deploy seria realizado usando uma máquina da AWS para hospedar as aplicações. Após a configuração inicial, foram realizadas configurações globais no servidor, como a instalação do Node para executar os projetos e do TypeScript para compilar de TypeScript para JavaScript.
+ Conversando com o cliente, foi levantado que o projeto deveria ser desenvolvido para o sistema Linux, e o deploy seria realizado usando uma máquina da AWS para hospedar as aplicações. Os requisitos para a máquina de produção levantados foram:
+
+- Tipo de Instância EC2: `t3.xlarge` ou `m5.large`
+- Memória (RAM): 32 GB
+- Armazenamento (EBS): 40 GB
+- Número Máximo de Usuários Simultâneos: 100
+- Utilização Máxima da CPU: Até 60%
+- Uso de RDS(Relational Database Service) para backup automático ou manual, e snapshot de banco de dados.
+- Criação de AMIs (Amazon Machine Images) para Rollback.
+- Mínimo de testes unitários e de integração
+
+ Foi-se então realizado a configuração global no servidor, como a instalação do Node para executar os projetos e do TypeScript para compilar de TypeScript para JavaScript.
  Posteriormente, foram criadas duas pastas para onde os backends do projeto seriam levantados: "Backend" e "BackendReceptor". Cada uma dessas pastas contém duas subpastas, "main", que consiste no servidor do produto final, e "develop", que consiste no servidor de produção.
 
 - **Backend**
