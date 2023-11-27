@@ -17,23 +17,21 @@ ________________________________________________________________________________
 # Como funciona 
 
 Criando Usuários e Diretório do Sistema para o Prometheus (Teremos que criar um usuário do sistema chamado Prometheus e um diretório Prometheus com o mesmo nome)
-> sudo useradd --no-create-home --shell /bin/false prometheus  
-
-> sudo useradd --no-create-home --shell /bin/false node_exporter
-
-> sudo mkdir /etc/prometheus
-
-> sudo mkdir /var/lib/prometheus
-
+```
+sudo useradd --no-create-home --shell /bin/false prometheus  
+sudo useradd --no-create-home --shell /bin/false node_exporter
+sudo mkdir /etc/prometheus
+sudo mkdir /var/lib/prometheus
+```
 **Atualização do Usuário Prometheus** 
 
 Como grupos de usuários e diretórios foram criados com sucesso para armazenar os dados e arquivos do Prometheus.
 Agora, precisaremos atualizar a propriedade do grupo e do usuário nos diretórios recém-criados. Ao utilizar o comando abaixo, realizamos a atualização da propriedade:
 
-> sudo chown prometheus:prometheus /etc/prometheus
-
-> sudo chown prometheus:prometheus /var/lib/prometheus
-
+```
+sudo chown prometheus:prometheus /etc/prometheus
+sudo chown prometheus:prometheus /var/lib/prometheus
+```
 **Baixando o pacote de dados binário**
 
  cd /opt/
@@ -49,37 +47,38 @@ ls
 
 **Copiando os arquivos binários do Prometheus**
 
-> sudo cp /opt/prometheus-2.26.0.linux-amd64/prometheus /usr/local/bin/
-
-> sudo cp /opt/prometheus-2.26.0.linux-amd64/promtool /usr/local/bin/
-
+```
+sudo cp /opt/prometheus-2.26.0.linux-amd64/prometheus /usr/local/bin/
+sudo cp /opt/prometheus-2.26.0.linux-amd64/promtool /usr/local/bin/
+```
 **Permissão para o Prometheus nos binários**
 
-> sudo chown prometheus:prometheus /usr/local/bin/prometheus
-
-> sudo chown prometheus:prometheus /usr/local/bin/promtool
-
+```
+sudo chown prometheus:prometheus /usr/local/bin/prometheus
+sudo chown prometheus:prometheus /usr/local/bin/promtool
+```
 
 **Copiando a biblioteca de console do Prometheus**
 
-> sudo cp -r /opt/prometheus-2.26.0.linux-amd64/consoles /etc/prometheus
+```
+sudo cp -r /opt/prometheus-2.26.0.linux-amd64/consoles /etc/prometheus
+sudo cp -r /opt/prometheus-2.26.0.linux-amd64/console_libraries /etc/prometheus
+sudo cp -r /opt/prometheus-2.26.0.linux-amd64/prometheus.yml /etc/prometheus
+```
 
-> sudo cp -r /opt/prometheus-2.26.0.linux-amd64/console_libraries /etc/prometheus
-
-> sudo cp -r /opt/prometheus-2.26.0.linux-amd64/prometheus.yml /etc/prometheus
 
 **Permissão para o Prometheus nos diretórios**
-
-> sudo chown -R prometheus:prometheus /etc/prometheus/consoles
-> sudo chown -R prometheus:prometheus /etc/prometheus/console_libraries
-
+```
+sudo chown -R prometheus:prometheus /etc/prometheus/consoles
+sudo chown -R prometheus:prometheus /etc/prometheus/console_libraries
+```
 
 **Checkar a versão do Prometheus**
 
-> prometheus --version
-
-> promtool --version
-
+```
+prometheus --version
+promtool --version
+```
 **Arquivo de configuração do Prometheus**
 
 - cat /etc/prometheus/prometheus.yml
@@ -119,16 +118,16 @@ scrape_configs:
 Salve com :wq!
 
 **Criando o arquivo Prometheus Systemd**
-
-> sudo -u prometheus /usr/local/bin/prometheus \
+```
+sudo -u prometheus /usr/local/bin/prometheus \
         --config.file /etc/prometheus/prometheus.yml \
         --storage.tsdb.path /var/lib/prometheus/ \
         --web.console.templates=/etc/prometheus/consoles \
         --web.console.libraries=/etc/prometheus/console_libraries
-     
-
-> sudo nano /etc/systemd/system/prometheus.service
-
+```     
+```
+sudo nano /etc/systemd/system/prometheus.service
+```
 **Entre no modo insert novamente e cole**
 
 > [Unit]
@@ -168,7 +167,7 @@ __coloque no browser: http://server-IP-or-Hostname:9090.__
 
 
 **Instalando Grafana**
-
+```
 > wget -q -O - https://packages.grafana.com/gpg.key | sudo apt-key add –
 
 __echo "deb https://packages.grafana.com/oss/deb stable main" | sudo tee -a /etc/apt/sources.list.d/grafana.list__
@@ -182,7 +181,7 @@ __echo "deb https://packages.grafana.com/oss/deb stable main" | sudo tee -a /etc
 > sudo systemctl status grafana-server
 
 > sudo systemctl enable grafana-server.service
-
+```
 
 __-> Para acessar o painel do Grafana, abra o seu navegador favorito, digite o endereço IP ou o nome do servidor seguido da porta padrão do Grafana, que é 3000.__
 
@@ -277,7 +276,74 @@ https://localhost:9100/targets
 > Após os passos, Suas dashboards estarão no ar!
 
 
+## PROMETHEUS
 
+**COMO RODAR:**
+```
+cd /etc/prometheus
+sudo systemctl start prometheus
+sudo systemctl status prometheus
+```
+**-> caso nao iniciar**
+```
+sudo systemctl daemon-reload
+sudo systemctl start prometheus
+sudo systemctl enable prometheus
+```
+----------------------------------------
+COMO PARAR:
+```
+sudo systemctl stop prometheus
+sudo systemctl status prometheus
+```
+__
+
+## GRAFANA
+**COMO RODAR:**
+```
+cd /etc/grafana
+sudo systemctl start grafana-server
+sudo systemctl status grafana-server
+```
+----------------------------------------
+**COMO PARAR:**
+```
+sudo systemctl stop grafana-server
+sudo systemctl status grafana-server
+```
+
+__
+
+## Node_Exporter
+
+**COMO RODAR:**
+```
+sudo systemctl start node_exporter
+sudo systemctl status node_exporter
+```
+----------------------------------------
+**COMO PARAR:**
+```
+sudo systemctl stop node_exporter
+sudo systemctl status node_exporter
+```
+
+__
+
+**COMO VISUALIZAR AS DASHBOARDS:**
+
+dashboard-> http://34.193.65.107:3000/d/rYdddlPWkjbbnkn/api-dashboards?orgId=1&refresh=1m&from=1700259605195&to=1700346005195
+
+outros links:
+prometheus
+http://34.193.65.107:9090/targets
+http://34.193.65.107:9100/targets
+---------------------------------------
+Grafana login
+admin
+api123
+
+http://34.193.65.107:3000/
 
 
 
