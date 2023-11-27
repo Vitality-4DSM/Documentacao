@@ -1,3 +1,5 @@
+## (Processo automatizado no deploy)
+
 ## Prometheus:
 - O Prometheus é um sistema de monitoramento e alerta de código aberto projetado para coletar e processar métricas de sistemas distribuídos. Ele é comumente usado em ambientes de servidores Linux para monitorar o desempenho e a saúde de sistemas, aplicativos e serviços.
 
