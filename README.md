@@ -122,10 +122,10 @@ baseada em problemas
 - ([Integração Continua ](https://github.com/Vitality-4DSM/Documentacao/blob/main/Documentação/Integraçao%20Continua/Integracao%20Continua.md))
 - ([Monitoramento ](https://github.com/Vitality-4DSM/Documentacao/blob/main/Documentação/Monitoramento/Monitoramento.md))
 - ([Rastreabilidade de requisitos](https://github.com/Vitality-4DSM/Documentacao/blob/main/Documentação/Rastreabilidade%20de%20requisitos/Rastreabilidade%20de%20requisitos.md))
-- ([Rotas](https://github.com/Vitality-4DSM/Documentacao/blob/main/Documentação/Rotas/Rotas.md))
 - ([Teste](https://github.com/Vitality-4DSM/Documentacao/blob/main/Documentação/Testes/Teste.md))
   
-
+## Documentação de rotas <a id="rastreamento"></a>
+- ([Swagger](https://github.com/Vitality-4DSM/Documentacao/blob/main/Documentação/Rotas/Rotas.md))
 
 <br>
 
