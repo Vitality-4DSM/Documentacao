@@ -126,7 +126,6 @@ baseada em problemas
 - ([Teste](https://github.com/Vitality-4DSM/Documentacao/blob/main/Documentação/Testes/Teste.md))
   
 
-- ([Clique aqui para verificar](https://github.com/Vitality-4DSM/Documentacao/blob/main/Documenta%C3%A7%C3%A3o/DevOps/pipeline.md))
 
 <br>
 
