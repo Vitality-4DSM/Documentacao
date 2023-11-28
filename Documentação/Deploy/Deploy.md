@@ -30,7 +30,7 @@ Garantia de Qualidade:
 
  Conversando com o cliente, foi levantado que o projeto deveria ser desenvolvido para o sistema Linux, e o deploy seria realizado usando uma máquina da AWS para hospedar as aplicações. Os requisitos para a máquina de produção levantados foram:
 
-- Tipo de Instância EC2: `t3.xlarge` ou `m5.large`
+- Tipo de Instância EC2: `t3.2xlarge`
 - Memória (RAM): 32 GB
 - Armazenamento (EBS): 40 GB
 - Número Máximo de Usuários Simultâneos: 100
@@ -44,14 +44,14 @@ Garantia de Qualidade:
 
 - **Backend**
   - **main**
-    - [projeto/arquivos do Servidor Principal]
+    - [projeto/arquivos do ambiente de produção]
   - **develop**
-    - [Projeto/arquivos do Servidor de Desenvolvimento]
+    - [Projeto/arquivos do ambiente de desenvolvimento]
 - **BackendReceptor**
   - **main**
-    - [projeto/arquivos do Servidor Principal]
+    - [projeto/arquivos do ambiente de produção]
   - **develop**
-    - [projeto/arquivos do Servidor de Desenvolvimento]
+    - [projeto/arquivos do ambiente de desenvolviment]
 
  Após a organização das pastas e testes manuais, tentou-se instalar o banco de dados MySQL na máquina. No entanto, essa tentativa foi infrutífera devido à baixa quantidade de espaço disponível, necessitando assim de uma solução alternativa. Ao procurar na internet, encontrou-se o site da empresa Neon Tech (https://neon.tech/), que permite a criação de bancos de dados relacionais online por meio da ferramenta PostgreSQL. Agora, o banco de dados relacional está hospedado lá, com cada backend acessando um banco de dados diferente: um para a "main" e outro para o "develop".
  Finalmente, foi desenvolvido um script que, ao abrir um terminal na pasta contendo o arquivo de senha da máquina AWS, possibilita a qualquer pessoa seguir as instruções linha por linha, simplesmente colando e executando. Esse script torna o processo de deploy uma tarefa de apenas alguns segundos, e com essa abordagem, não há necessidade de se preocupar com configurações complexas ou algum risco de segurança. Essa solução resulta em uma significativa economia de tempo e aumento da eficiência, simplificando todo o processo de desenvolvimento de maneira rápida e fácil.
