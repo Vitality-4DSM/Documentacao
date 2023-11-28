@@ -90,6 +90,24 @@ baseada em problemas
 
 <br>
 
+## Product Backlog <a id="product"></a>
+
+| **Item**                                     | **Descrição**                                                                                                         |
+|-----------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|
+| Desenvolvimento do Datalogger para Estação Meteorológica | Desenvolver o código para o Datalogger que registrará os dados provenientes das estações meteorológicas.            |
+| Montagem da Estação Meteorológica              | Montar a estação meteorológica física, possivelmente utilizando hardware como Arduino.                                |
+| Cadastro de Estações, Parâmetros e Usuários    | Implementar funcionalidades de cadastro para estações meteorológicas, parâmetros e usuários no sistema.               |
+| Recepção de Dados das Estações Meteorológicas  | Desenvolver a capacidade do sistema para receber e processar os dados enviados pelas estações meteorológicas.          |
+| Dashboards de Visualização dos Parâmetros Meteorológicos | Criar páginas de dashboard para visualização dos parâmetros meteorológicos, priorizando uma experiência de usuário agradável. |
+| Tutorial sobre Significado dos Parâmetros Meteorológicos | Desenvolver uma seção educacional que explique o significado de cada parâmetro meteorológico, especialmente voltada para alunos do ensino médio. |
+| Melhoria Contínua do UX nos Dashboards         | Implementar melhorias contínuas na experiência de usuário nas páginas de dashboard, levando em consideração o feedback dos usuários. |
+| Aprendizagem para Alunos do Ensino Médio | Desenvolver funcionalidades ou conteúdos educacionais que estimulem o interesse dos alunos do ensino médio por meio da aprendizagem. |
+| Documentação de Rotas das APIs                | Documentar as rotas das APIs utilizadas no projeto para facilitar a compreensão e manutenção do sistema.              |
+| Configuração da Pipeline de Integração Contínua (IC) | Estabelecer uma pipeline de integração contínua para automatizar testes e garantir a qualidade do código.          |
+| Implementação de Deploy Automático             | Desenvolver um processo de deploy automático para facilitar a distribuição e atualização da aplicação.                |
+
+<br>
+
 ## :dart: Backlog Total <a id="backlog"></a>
 
 | Tarefa | Prioridade | User Stories | Critério de Aceitação | Sprint | Status |
