@@ -1,14 +1,4 @@
 # Explicação das rotas  <a id="deployment"></a>
-## Swagger
-O Swagger é uma estrutura de software de código aberto que facilita a criação, a documentação e o consumo de serviços da Web. Ele fornece uma maneira padrão de documentar APIs REST, permitindo que desenvolvedores entendam rapidamente a funcionalidade de um serviço sem acessar diretamente o código-fonte.
-
-## Principais benefícios do Swagger:
-
-Exploração Interativa: Permite que os desenvolvedores explorem e testem os endpoints da API diretamente na interface Swagger UI.
-
-Padronização: Fornecer uma maneira padronizada de descrever APIs facilita a compreensão e o consumo de serviços por parte dos desenvolvedores.
-
-Colaboração: A documentação clara e padronizada facilita a colaboração entre equipes de desenvolvimento, operações e outras partes interessadas.
 
 ## Requisitos do projeto
 
