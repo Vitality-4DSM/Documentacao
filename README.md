@@ -90,6 +90,7 @@ baseada em problemas
 
 <br>
 
+
 ## Product Backlog <a id="product"></a>
 
 | **Item**                                     | **Descrição**                                                                                                         |
@@ -108,29 +109,53 @@ baseada em problemas
 
 <br>
 
+# Requisitos do do projeto <a id="product"></a>
+
+| **Requisitos**                                |  **User Story**                                                                                                          |
+|-----------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|
+| Documentação das Sprints no GitHub            | Eu, como Fatec, quero que cada sprint seja documentada no GitHub para avaliação.                                      |
+| Incorporação de Processos de DevOps           | Eu, como Fatec, quero que sejam incorporados processos de DevOps na realização do projeto.                             |
+| Modelo de Dados                               | Eu, como cliente, quero que seja feito um modelo de dados dos bancos que serão usados para visualizar como serão feitos os bancos de dados. |
+| Arquitetura do Projeto                        | Eu, como cliente, quero que seja feito um mapa de como será o fluxo do projeto.                                        |
+| Layout das Páginas do Projeto                 | Eu, como cliente, quero que seja feito um mockup das páginas do projeto para visualizar como serão feitas.             |
+| Banco Relacional                              | Eu, como cliente, quero um banco de dados onde as informações possam ser salvas e usadas quando necessário.            |
+| Proteção de Rotas                             | Eu, como cliente do sistema, quero que as rotas sejam protegidas para que apenas pessoas autorizadas possam usar certas funções do sistema. |
+| Página de Login                               | Eu, como cliente, quero que o sistema tenha um perfil público e de administrador para manter a segurança do projeto.    |
+| Banco Não Relacional                          | Eu, como cliente, quero um banco de dados capaz de lidar com o grande fluxo de dados recebidos das estações.            |
+| Sincronização Não Relacional para Relacional   | Eu, como cliente, quero que seja feita uma sincronização entre o banco não relacional e relacional, pegando os dados e os tratando para passar de um para o outro, a cada 30 segundos. |
+| Página de Parâmetros                          | Eu, como cliente, quero que o sistema tenha um CRUD completo de parâmetros.                                            |
+| Página de Dashboard                           | Eu, como cliente, quero que o sistema tenha um dashboard que permitirá visualizar as informações salvas no banco de dados. |
+| Guia dos Parâmetros                           | Eu, como cliente, quero uma área que descreva sobre os parâmetros usados no projeto para fins educacionais de quem usar o site. |
+| Deploy Automático                             | Eu, como cliente, quero que o projeto tenha um deploy automático.                                                       |
+| Programar uma Estação com C e Arduino         | Eu, como cliente, quero que uma estação seja criada usando código em C e Arduino.                                      |
+| Página de Usuário                             | Eu, como cliente, quero que o sistema tenha um CRUD de usuários para facilitar o controle de administradores.           |
+| Página de Alerta                               | Eu, como cliente, quero que tenha um CRUD completo de alertas que devem ser disparados e listados em um histórico.      |
+| Construir uma Estação com Arduino             | Eu, como cliente, quero que uma estação seja criada usando código em C e Arduino.                                     |
+<br>
+
 ## :dart: Backlog Total <a id="backlog"></a>
 
-| Tarefa | Prioridade | User Stories | Critério de Aceitação | Sprint | Status |
-| :----: | :--------: | :----------: | :-------------------: | :----: | :----: |
-| Documentação do projeto | Alta 🟥 | Eu, como Fatec, quero que o projeto tenha cada sprint documentada no GitHub para avaliação. | Preencher e atualizar o GitHub com as documentações relevantes do projeto para fins de organização e avaliação. | Entrega contínua | ✅ |
-| Ferramentas de DevOps | Alta 🟥 | Eu, como Fatec, quero que sejam incorporados processos de DevOps na realização do projeto. | Uso de processos de DevOps para desenvolver mais as habilidades da equipe em entrega contínua. | Entrega contínua | ✅ |
-| Modelo de dados | Alta 🟥 | Eu, como cliente, quero que seja feito um modelo de dados dos bancos que serão usados para visualizar como serão feitos os bancos de dados. | Criar o modelo físico relacional do banco relacional e não relacional. | 1 | ✅ |
-| Arquitetura do projeto | Alta 🟥 | Eu, como cliente, quero que seja feito um mapa de como será o fluxo do projeto. | Documentar a arquitetura do projeto. | 1 | ✅ |
-| Layout das páginas do projeto | Média 🟨 | Eu, como cliente, quero que seja feito um mockup das páginas do projeto para visualizar como serão feitas. | Criar as páginas no Figma e validar com o cliente. | 1 | ✅ |
-| Banco relacional | Alta 🟥 | Eu, como cliente, quero um banco de dados onde as informações possam ser salvas e usadas quando necessário. | Criar o banco relacional no MySQL. | 1 | ✅ |
-| Proteção de rotas | Alta 🟥 | Eu, como cliente do sistema, quero que as rotas sejam protegidas para que apenas pessoas autorizadas possam usar certas funções do sistema. | Proteger os backends, permitindo o acesso às rotas apenas com token. | 2 | ✅ |
-| Página de estações | Alta 🟥 | Eu, como cliente, quero que o sistema tenha um CRUD completo de estações. | Criar uma página capaz de realizar o CRUD de estações. | 2 | ✅ |
-| Página de login | Média 🟨 | Eu, como cliente, quero que o sistema tenha um perfil público e de administrador para manter a segurança do projeto. | Criar uma página que disponibilizará o token após um login bem-sucedido para usar opções de administrador. | 2 | ✅ |
-| Banco não relacional | Média 🟨 | Eu, como cliente, quero um banco de dados capaz de lidar com o grande fluxo de dados recebidos das estações. | Criar o banco não relacional no MongoDB para conseguir lidar com grandes volumes de dados recebidos, mantendo a performance e não sobrecarregando o sistema. Os dados serão enviados para o banco relacional a cada 30 segundos. | 2 | ✅ |
-| Sincronização do não relacional pro relacional | Alta 🟥 | Eu, como cliente, quero que seja feito uma sincronização entre o banco não relacional e relacional, pegando os dados e os tratando para passar de um para o outro, a cada 30 segundos. | Criar uma sincronização automatica, que passa dados do não relacional pro relacional de 30 em 30 segundos. | 2 | ✅ |
-| Página de parâmetros | Alta 🟥 | Eu, como cliente, quero que o sistema tenha um CRUD completo de parâmetros. | Criar uma página capaz de realizar o CRUD de parâmetros. | 3 | ✅ |
-| Página de dashboard | Alta 🟥 | Eu, como cliente, quero que o sistema tenha um dashboard que permitirá visualizar as informações salvas no banco de dados. | Criar uma página que terá gráficos exibindo informações do banco relacionadas aos parâmetros coletados. | 3 | ✅ |
-| Guia dos parâmetros | Alta 🟥 | Eu, como cliente, quero uma área que descreva sobre os parâmetros usados no projeto para fins educacionais de quem usar o site. | Criar uma página que conterá uma explicação dos parâmetros cadastrados no sistema. | 3 | ✅ |
-| Deploy | Alta 🟥 | Eu, como cliente, quero que o projeto tenha um deploy automático. | Criar um script para iniciar a aplicação e integrá-la à entrega contínua. | 3 | ✅ |
-| Programar uma estação com C | Alta 🟥 | Eu, como cliente, quero que uma estação seja criada usando código em C e Arduino. | Desenvolver o código que será usado na estação. | 3 | ✅ |
-| Página de usuário | Média 🟨 | Eu, como cliente, quero que o sistema tenha um CRUD de usuários para facilitar o controle de administradores. | Criar uma página que conterá o CRUD de usuários do sistema. | 3 | ✅ |
-| Página de alerta | Média 🟨 | Eu, como cliente, quero que tenha um CRUD completo de alertas que devem ser disparados e listados em um histórico. | Criar uma página que terá um CRUD dos alertas. Os alertas poderão ser cadastrados com base em certos tipos de verificações, e ao serem acionados, criarão uma notificação e aparecerão no histórico. | 4 | ✅ |
-| Construir uma estação com Arduino | Média 🟨 | Eu, como cliente, quero que uma estação seja criada usando código em C e Arduino. | Construção da estação com Arduino, e uso do código desenvolvido. | 4 | ✅ |
+| Tarefa | Prioridade | Critério de Aceitação | Sprint | Status |
+| :----: | :--------: | :-------------------: | :----: | :----: |
+| Documentação do projeto | Alta 🟥  | Preencher e atualizar o GitHub com as documentações relevantes do projeto para fins de organização e avaliação. | Entrega contínua | ✅ |
+| Ferramentas de DevOps | Alta 🟥  | Uso de processos de DevOps para desenvolver mais as habilidades da equipe em entrega contínua. | Entrega contínua | ✅ |
+| Modelo de dados | Alta 🟥 | Criar o modelo físico relacional do banco relacional e não relacional. | 1 | ✅ |
+| Arquitetura do projeto | Alta 🟥  | Documentar a arquitetura do projeto. | 1 | ✅ |
+| Layout das páginas do projeto | Média 🟨  | Criar as páginas no Figma e validar com o cliente. | 1 | ✅ |
+| Banco relacional | Alta 🟥  | Criar o banco relacional no MySQL. | 1 | ✅ |
+| Proteção de rotas | Alta 🟥  | Proteger os backends, permitindo o acesso às rotas apenas com token. | 2 | ✅ |
+| Página de estações | Alta 🟥  | Criar uma página capaz de realizar o CRUD de estações. | 2 | ✅ |
+| Página de login | Média 🟨 | Criar uma página que disponibilizará o token após um login bem-sucedido para usar opções de administrador. | 2 | ✅ |
+| Banco não relacional | Média 🟨 | Criar o banco não relacional no MongoDB para conseguir lidar com grandes volumes de dados recebidos, mantendo a performance e não sobrecarregando o sistema. Os dados serão enviados para o banco relacional a cada 30 segundos. | 2 | ✅ |
+| Sincronização do não relacional pro relacional | Alta 🟥 | Criar uma sincronização automatica, que passa dados do não relacional pro relacional de 30 em 30 segundos. | 2 | ✅ |
+| Página de parâmetros | Alta 🟥 | Criar uma página capaz de realizar o CRUD de parâmetros. | 3 | ✅ |
+| Página de dashboard | Alta 🟥 | Criar uma página que terá gráficos exibindo informações do banco relacionadas aos parâmetros coletados. | 3 | ✅ |
+| Guia dos parâmetros | Alta 🟥 | Criar uma página que conterá uma explicação dos parâmetros cadastrados no sistema. | 3 | ✅ |
+| Deploy | Alta 🟥 | Criar um script para iniciar a aplicação e integrá-la à entrega contínua. | 3 | ✅ |
+| Programar uma estação com C | Alta 🟥 | Desenvolver o código que será usado na estação. | 3 | ✅ |
+| Página de usuário | Média 🟨 | Criar uma página que conterá o CRUD de usuários do sistema. | 3 | ✅ |
+| Página de alerta | Média 🟨 | Criar uma página que terá um CRUD dos alertas. Os alertas poderão ser cadastrados com base em certos tipos de verificações, e ao serem acionados, criarão uma notificação e aparecerão no histórico. | 4 | ✅ |
+| Construir uma estação com Arduino | Média 🟨 |  Construção da estação com Arduino, e uso do código desenvolvido. | 4 | ✅ |
 
 <br>
 
