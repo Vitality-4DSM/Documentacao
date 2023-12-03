@@ -11,7 +11,6 @@
   <a href="#desafio">Desafio</a> • 
   <a href="#escopo">Escopo do Projeto</a> • 
   <a href="#backlog">Backlog das Sprints</a> • 
-  <a href="#rastreamento">Rastreamento de Requisitos</a> •
   <a href="#devops">DevOps</a> •
   <a href="#tecnologia">Tecnologias</a> •
   <a href="#sprint">Sprints</a> • 
@@ -21,7 +20,7 @@
 <br>
 
 <h4 align="center">  
-  Status do Projeto: Em andamento ⏳️ 
+  Status do Projeto: Concluído ✅
 </h4>
 
 <br>
@@ -159,7 +158,7 @@ baseada em problemas
 
 <br>
 
-## Documentação DevsOps <a id="rastreamento"></a>
+## Documentação DevsOps <a id="devops"></a>
 - ([Branch](https://github.com/Vitality-4DSM/Documentacao/blob/main/Documentação/Branch/Branch.md))
 - ([Deploy](https://github.com/Vitality-4DSM/Documentacao/blob/main/Documentação/Deploy/Deploy.md))
 - ([Integração Continua ](https://github.com/Vitality-4DSM/Documentacao/blob/main/Documentação/Integraçao%20Continua/Integracao%20Continua.md))
