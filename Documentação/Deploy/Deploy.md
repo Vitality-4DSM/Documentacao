@@ -177,3 +177,67 @@ npx tsc
 # Iniciar o servidor do backend receptor em modo de desenvolvimento
 npm run dev
 ```
+
+**Frontend - main**
+```markdown
+# Conectar à instância AWS
+ssh -i FATEC-EQ2.pem ubuntu@34.193.65.107
+
+# Navegar até o diretório do backend receptor develop
+cd Frontend/develop
+
+# Remover versão anterior do backend receptor
+rm -rf Front-end
+
+# Clonar o repositório do GitHub
+git clone https://github.com/Vitality-4DSM/Front-end.git
+
+# Entrar no diretório do frontend
+cd Front-end
+
+# Instalar as dependências do Node.js
+npm install
+
+# Encerrar qualquer processo usando a porta 3000
+fuser -k 3000/tcp
+
+# Compilar o código TypeScript para JavaScript
+npx tsc
+
+# Iniciar o servidor do frontend em modo de desenvolvimento
+npm run dev
+```
+
+
+**Frontend - develop**
+```markdown
+# Conectar à instância AWS
+ssh -i FATEC-EQ2.pem ubuntu@34.193.65.107
+
+# Navegar até o diretório do backend receptor develop
+cd Frontend/develop
+
+# Remover versão anterior do backend receptor
+rm -rf Front-end
+
+# Clonar o repositório do GitHub
+git clone https://github.com/Vitality-4DSM/Front-end.git
+
+# Entrar no diretório do frontend
+cd Front-end
+
+# Mudar para a branch develop
+git checkout develop
+
+# Instalar as dependências do Node.js
+npm install
+
+# Encerrar qualquer processo usando a porta 3000
+fuser -k 3000/tcp
+
+# Compilar o código TypeScript para JavaScript
+npx tsc
+
+# Iniciar o servidor do frontend em modo de desenvolvimento
+npm run dev
+```
