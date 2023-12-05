@@ -32,7 +32,7 @@ Garantia de Qualidade:
 
 - Tipo de Instância EC2: `t3.2xlarge`
 - Memória (RAM): 32 GB
-- Armazenamento (EBS): 40 GB
+- Armazenamento: 40 GB
 - Número Máximo de Usuários Simultâneos: 100
 - Utilização Máxima da CPU: Até 60%
 - Uso de RDS(Relational Database Service) para backup automático ou manual, e snapshot de banco de dados.
