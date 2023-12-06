@@ -108,7 +108,7 @@ baseada em problemas
 
 <br>
 
-| **ID** | **Requisitos**                                |  **User Story**                                                                                                          |
+| **ID** | **Requisitos**                                |                                                                                                           |
 |--------|-----------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|
 | 01      | Documentação das Sprints no GitHub            | Eu, como Fatec, quero que cada sprint seja documentada no GitHub para avaliação.                                      |
 | 02      | Incorporação de Processos de DevOps           | Eu, como Fatec, quero que sejam incorporados processos de DevOps na realização do projeto.                             |
