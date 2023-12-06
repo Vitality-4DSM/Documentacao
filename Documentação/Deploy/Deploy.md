@@ -28,9 +28,8 @@ Garantia de Qualidade:
 
 ## Requisitos do projeto
 
- Conversando com o cliente, foi levantado que o projeto deveria ser desenvolvido para o sistema Linux, e o deploy seria realizado usando uma máquina da AWS para hospedar as aplicações. Os requisitos para a máquina de produção levantados foram:
+ Conversando com o cliente, foi levantado que o projeto deveria ser desenvolvido para o sistema Linux, os requisitos para a máquina de produção levantados foram:
 
-- Tipo de Instância EC2: `t3.2xlarge`
 - Memória (RAM): 32 GB
 - Armazenamento: 40 GB
 - Número Máximo de Usuários Simultâneos: 100
